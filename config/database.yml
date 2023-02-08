@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: template_development
+  database: Test_Project_development
 
 test:
   <<: *default
-  database: template_test
+  database: Test_Project_test
 
 production:
   <<: *default
-  database: template_production
+  database: Test_Project_Production
   username: template_username
   password: <%= ENV['DATABASE_PASSWORD'] %>

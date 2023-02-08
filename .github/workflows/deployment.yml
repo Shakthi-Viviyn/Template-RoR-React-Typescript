@@ -1,4 +1,4 @@
-name: Deploy develop branch to Staging site
+name: Test Project
 
 # Uncomment the following to enable this workflow
 # on:
